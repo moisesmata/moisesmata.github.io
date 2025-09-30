@@ -24,7 +24,7 @@ responsive, dark-mode ready Jekyll theme designed for use as a personal website 
 - Easily link to your profiles on ResearchGate and ORCID
 
 ## Installation
-* Fork the repo by using the `Use this template` (somewhere on the top bar) after logging in to your GitHub account
+* Fork the repo by using the `Use this template` button
 * Now, in your copy of the repo, [allow workflows to write to your repo](https://github.com/jitinnair1/autoCV/wiki/How-to-use-autoCV:-Detailed-Instructions#step-3-give-the-workflow-write-permissions-for-your-repo-settings---actions---general)
 * You can now modify the contents and personalise the template
 
