@@ -1,11 +1,11 @@
 ### your site title here
 
 title: Moises Mata
-description: subtitle | affiliations | motto
+description: CS, Applied Math, & Robotics @ Columbia | Flight Software Engineering Intern @ NASA JPL | Columbia Space Initiative Co-President
 
 baseurl: /moisesmata.github.io #name of GitHub repository
 url: "moises-mata.com" #custom url to be used instead of GitHub repository
-email: #
+email: mm6155@columbia.edu
 
 # Pagination
 paginate: 4
@@ -13,9 +13,9 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-linkedin: "#"
+linkedin: "https://www.linkedin.com/in/moises-mata-cu/"
 stackoverflow: "#"
-github: "#"
+github: "https://github.com/moisesmata"
 researchgate: "#"
 orcid: "#"
 quora: "#"

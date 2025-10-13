@@ -7,15 +7,60 @@ profile:
 published: true
 ---
 
-[Gradfolio](https://github.com/jitinnair1/gradfolio){:target="_blank"} is a responsive, dark-mode ready Jekyll theme designed keeping academia in mind. The easiest way to install the theme is to fork it using GitHub. Check the README file for [instructions](https://github.com/jitinnair1/gradfolio#installation){:target="_blank"}.
+Welcome! I'm Moises Mata, a third-year student at Columbia University studying Computer Science and Applied Mathematics with a passion for robotic algorithm control and optimization.
 
-If you want to use this space to write your biography here, edit the `index.md` file. You can put a picture in, too. Rename your picture to `profile.png` and put it in the `assets/images/` folder.
+## About Me
 
-The social-icons footer can be used to link profiles from GitHub, OrcID and ReasearchGate aprart form the usual Twitter, LinkedIn and Facebook. You can add your user ID in the `_config.yml` file to link your accounts.
+I'm currently a fourth-year student at Columbia University, where I'm pursuing degrees in Computer Science and Applied Mathematics. My academic focus centers on robotic algorithm control and optimization, with particular interest in embedded systems and control theory applications in aerospace engineering.
 
-PS: If you liked the theme, do star it on GitHub!
+## Current Roles
 
-### Also, check out:
+**Co-President, Columbia Space Initiative** (Mar 2025 - Present)
+- Leading Columbia University's largest engineering student organization
+- Coordinating general body meetings and overseeing daily operations
+- Shaping strategic direction for space-related projects and missions
 
-- [autoCV](https://github.com/jitinnair1/autocv) - a LaTeX template that builds and deploys the CV using GitHub Actions, so you will always have a ready link for your latest CV
-- [Tail](https://github.com/jitinnair1/tail) - a minimal, quick-setup template for a blog
+**Flight Software Engineering Intern, NASA JPL** (May 2025 - Aug 2025)
+- Contributing to F Prime, an open-source embedded software framework for spacecraft missions
+- Implementing feature enhancements and debugging C++ and Python codebases
+- Maintaining legacy systems and updating technical documentation
+
+**Researcher, A²R Lab, Columbia University** (Jan 2025 - Present)
+- Working on TinyMPC, an open-source convex model-predictive control solver
+- Focused on resource-constrained platforms under Professor Brian Plancher
+- Developing embedded systems solutions for robotics applications
+
+## Research Experience
+
+**SURF@JPL Research Fellow, NASA JPL** (Apr 2024 - Aug 2024)
+- Conducted research under Dr. Yasuhiro Hasegawa at JPL
+- Trained machine learning classifiers to analyze Kepler Space Telescope data
+- Developed models to infer the existence of habitable exoplanets
+
+## Technical Skills
+
+- **Programming**: C++, Python, Java, C, Embedded C
+- **Systems**: Embedded Systems, Control Systems, Data Structures
+- **Applications**: Machine Learning, Data Analysis, Algorithms
+- **Tools**: Pandas, Matplotlib, Database systems
+
+## Leadership & Service
+
+**Treasurer, Columbia Space Initiative** (Mar 2024 - Mar 2025)
+- Managed financial operations for Columbia's largest engineering club
+- Helped coordinate budget proposals and funding for various space missions
+- Maintained spending oversight across multiple project teams
+
+**Tutor, Berick Center for Student Advising** (Sep 2023 - Apr 2024)
+- Provided one-on-one instruction in Calculus I and Digital Systems
+- Helped students master fundamentals of computer systems (CSEE 3827)
+
+## Looking Forward
+
+I'm passionate about applying control theory and optimization techniques to solve complex problems in robotics and aerospace systems. 
+
+## CV and Contact
+
+For more detailed information about my experiences, please view my [CV](https://moises-mata.com/CV/cv.pdf).
+
+Feel free to explore my projects and reach out if you'd like to connect!
