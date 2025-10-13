@@ -1,10 +1,10 @@
 ### your site title here
 
-title: Your Name
+title: Moises Mata
 description: subtitle | affiliations | motto
 
-baseurl: /gradfolio #name of GitHub repository
-url: "" #custom url to be used instead of GitHub repository
+baseurl: /moisesmata.github.io #name of GitHub repository
+url: "moises-mata.com" #custom url to be used instead of GitHub repository
 email: #
 
 # Pagination
