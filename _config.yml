@@ -12,16 +12,10 @@ paginate: 4
 permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
-# Social media links in footer
-linkedin: "https://www.linkedin.com/in/moises-mata-cu/"
-stackoverflow: "#"
-github: "https://github.com/moisesmata"
-researchgate: "#"
-orcid: "#"
-quora: "#"
-instagram: "#"
-facebook: "#"
-bluesky: "#"
+# Social media links in footer (only username/ID, not full URLs)
+linkedin: "moises-mata-cu"
+github: "moisesmata"
+orcid: "0009-0002-9881-1786"
 
 # Markdown
 highlighter: rouge
