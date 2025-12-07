@@ -13,4 +13,6 @@ I'm interested in robotics and control, specifically algorithms that help roboti
 
 ## Publications
 
+<div id="publications-list"><em>Loading publications...</em></div>
 
+<script src="{{ '/assets/js/bibtex-parser.js' | relative_url }}"></script>
