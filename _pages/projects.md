@@ -1,7 +1,10 @@
 ---
 title: Projects
-layout: default
+layout: about
 permalink: /projects/
+profile:
+  align: right
+  image: profile.jpg
 published: true
 ---
 
