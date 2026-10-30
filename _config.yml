@@ -1,11 +1,11 @@
 ### your site title here
 
 title: Moises Mata
-description: Senior in Computer Science and Applied Math, Columbia University
+description: PhD student in Aerospace and Mechanical Engineering at USC, LASER Lab
 
-baseurl: /moisesmata.github.io #name of GitHub repository
-url: "moises-mata.com" #custom url to be used instead of GitHub repository
-email: mm6155@columbia.edu
+baseurl: ""
+url: "https://moises-mata.com"
+email: moymata@usc.edu
 
 # Pagination
 paginate: 4
@@ -37,6 +37,9 @@ compress_html:
 
 #collection
 collections:
+  fun:
+    output: true
+    permalink: /fun/:name/
   projects:
     output: true
     permalink: /projects/:name/
@@ -55,6 +58,8 @@ include:
 exclude:
   - README.md
   - LICENSE.md
+  - docs
+  - vendor
 
 plugins:
   - jekyll-seo-tag

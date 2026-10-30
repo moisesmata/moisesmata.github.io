@@ -1,44 +1,39 @@
-# Gradfolio
+# Moises Mata — academic website
 
-<p align="center">
-<img src="https://snippets.jitin.xyz/assets/img/demo/grad_composite.png" alt="Composite example of the gradfolio theme"/>
-</p>
+Personal research website built with Jekyll. The current layout follows [Andy Zeng’s academic template](https://github.com/andyzeng/andyzeng.github.io), with an original responsive implementation and a Canyon River Blue-inspired palette. The repository originally used Gradfolio.
 
-responsive, dark-mode ready Jekyll theme designed for use as a personal website and portfolio. [Here's a live demo](https://jitinnair1.github.io/gradfolio/)
+## Local preview
 
-## Preview
+Use Ruby compatible with the locked dependencies, then run:
 
-<details>
-<summary>Light</summary>
-<img src="https://snippets.jitin.xyz/assets/img/demo/grad_light.png" alt="Preview of gradfolio theme in light mode"/>
-</details>
-<details>
-<summary>Dark</summary>
-<img src="https://snippets.jitin.xyz/assets/img/demo/grad_dark.png" alt="Preview of gradfolio theme in dark mode"/>
-</details>
+```sh
+bundle install
+bundle exec jekyll serve
+```
 
-## Features
-- Responsive
-- Respects Dark Mode preference set by the user
-- Projects Page to showcase your work/side projects
-- Easily link to your profiles on ResearchGate and ORCID
+Open http://127.0.0.1:4000. For a production build, run `JEKYLL_ENV=production bundle exec jekyll build`; generated files go to `_site/`.
 
-## Installation
-* Fork the repo by using the `Use this template` button
-* Now, in your copy of the repo, [allow workflows to write to your repo](https://github.com/jitinnair1/autoCV/wiki/How-to-use-autoCV:-Detailed-Instructions#step-3-give-the-workflow-write-permissions-for-your-repo-settings---actions---general)
-* You can now modify the contents and personalise the template
+## Editing
 
-Alternatively, you can [download the source files](https://github.com/jitinnair1/gradfolio/archive/master.zip) and [make changes locally](https://github.com/jitinnair1/gradfolio/wiki/Local-Development). 
+- Biography and homepage sections: `index.md`.
+- Contact details, social handles, canonical URL: `_config.yml`.
+- Publication display: `_data/publications.yml`. Keep `assets/bib/publications.bib` synchronized.
+- Project descriptions and detail pages: `_projects/*.md`.
+- Appearance: `assets/css/academic.css`.
+- Shared page shell: `_layouts/default.html`.
+- Portrait: `assets/images/profile.jpg`.
+- Personal posts: `_fun/*.md`; see [the Fun page editing guide](docs/personal-content.md).
+- External blog links: `_data/personal.yml`.
+- AI-use disclosure: `_includes/ai-disclosure.html`.
 
-## Documentation
+The homepage opens on Research. Lightweight JavaScript switches between Research, Projects, and Blog without reloading. Categories have shareable hash URLs and support browser Back/Forward. Without JavaScript, all sections remain visible and navigation works as anchor links. Existing project, blog, and /fun/ routes are preserved. Music and Misc are disabled for now.
 
-Check out the [Wiki](https://github.com/jitinnair1/gradfolio/wiki) for some tips on [publishing to a custom domain](https://github.com/jitinnair1/gradfolio/wiki/Publishing-your-website) or an [indicative list of things to customise before you publish](https://github.com/jitinnair1/gradfolio/wiki/Customising-your-website) 
+## Hosting
 
-### Also, check out:
+Recommendation: keep GitHub Pages and the existing custom domain. Read [the hosting and design study](docs/hosting-study.md) for alternatives, sources, trade-offs, and launch checks.
 
-- [autoCV](https://github.com/jitinnair1/autocv) - a LaTeX template that builds and deploys the CV using GitHub Actions, so you will always have a ready link for your latest CV
-- [Tail](https://github.com/jitinnair1/tail) - a minimal, quick-setup template for a blog
-- [snippet-book](https://github.com/jitinnair1/snippet-book) -terminal style, clean Jekyll blog theme with catppuccin colours
+The existing GitHub workflow builds on pushes to `master` and publishes to `gh-pages`. Confirm Pages settings before deploying. No DNS or hosting changes are needed to preview locally.
 
+## Before publishing
 
-PS: If you liked the theme, do star :star: it! Thanks!
+Confirm the publication venue in both data files, add a verified CV link, expand project details where useful, and review the inherited sample blog posts. No unverified news or accomplishments have been added.

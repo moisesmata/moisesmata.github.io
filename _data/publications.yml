@@ -1,0 +1,10 @@
+- title: Code Generation and Conic Constraints for Model-Predictive Control on Microcontrollers with Conic-TinyMPC
+  authors: Ishaan Mahajan, Khai Nguyen, Sam Schoedel, Elakhya Nedumaran, Moises Mata, Brian Plancher, and Zachary Manchester
+  year: 2026
+  venue: ICRA
+  image: /assets/images/conic-tinympc-spiral.jpg
+  image_alt: Crazyflie spiral landing under a cone constraint, from the Conic-TinyMPC paper
+  url: https://ieeexplore.ieee.org/document/11697399
+  url_label: IEEE Xplore
+  arxiv_url: https://arxiv.org/abs/2403.18149
+  project_url: https://tinympc.org/

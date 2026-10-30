@@ -1,0 +1,23 @@
+{% assign personal_links = site.data.personal.links | where: 'category', include.category %}
+{% assign personal_posts = site.fun | sort: 'date' | reverse %}
+{% assign entry_count = personal_links.size %}
+{% for entry in personal_links %}
+<article class="personal-entry">
+  <h3><a href="{{ entry.url | relative_url }}">{{ entry.title | escape }}</a></h3>
+  {% if entry.description %}<p>{{ entry.description | escape }}</p>{% endif %}
+  {% if entry.date %}<p class="entry-meta">{{ entry.date | date: '%B %Y' }}</p>{% endif %}
+</article>
+{% endfor %}
+{% for entry in personal_posts %}
+{% assign entry_category = entry.category | default: 'misc' %}
+{% if entry_category == include.category %}
+{% assign entry_count = entry_count | plus: 1 %}
+<article class="personal-entry">
+  {% if entry.image %}<img class="entry-image" src="{{ entry.image | relative_url }}" alt="{{ entry.image_alt | escape }}" loading="lazy">{% endif %}
+  <h3><a href="{{ entry.url | relative_url }}">{{ entry.title | escape }}</a></h3>
+  {% if entry.description %}<p>{{ entry.description | escape }}</p>{% endif %}
+  <p class="entry-meta">{{ entry.date | date: '%B %Y' }}</p>
+</article>
+{% endif %}
+{% endfor %}
+{% if entry_count == 0 %}<p class="empty-note">{{ include.empty }}</p>{% endif %}

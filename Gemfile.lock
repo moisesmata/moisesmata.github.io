@@ -90,6 +90,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-24
+  arm64-darwin-25
   x86_64-linux
 
 DEPENDENCIES
@@ -98,7 +99,6 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-seo-tag
   jekyll-target-blank
-  webrick (~> 1.7)
 
 BUNDLED WITH
    2.6.3
