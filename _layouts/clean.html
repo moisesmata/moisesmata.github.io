@@ -9,7 +9,8 @@
         <meta content="width=device-width, initial-scale=1" name="viewport">
         <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
 
-        {% seo %}
+        <title>{{ site.title | escape }}</title>
+        {% seo title=false %}
 
         {% include favicon.html %}
 

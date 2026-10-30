@@ -1,15 +1,9 @@
 ---
 layout: default
 title: Fun
-description: Personal posts and blog links from Moises Mata.
+description: Fun from Moises Mata.
 permalink: /fun/
 ---
 <section class="fun-page" aria-labelledby="fun-title">
-  <h1 id="fun-title">Fun</h1>
-  {% for category in site.data.personal.categories %}
-  <section aria-labelledby="fun-{{ category.id }}">
-    <h2 id="fun-{{ category.id }}"><a href="{{ '/' | relative_url }}#{{ category.id }}">{{ category.title }}</a></h2>
-    {% include personal-entries.html category=category.id empty=category.empty %}
-  </section>
-  {% endfor %}
+  <h1 id="fun-title">Stay tuned!</h1>
 </section>

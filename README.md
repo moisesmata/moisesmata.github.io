@@ -18,7 +18,6 @@ Open http://127.0.0.1:4000. For a production build, run `JEKYLL_ENV=production b
 - Biography and homepage sections: `index.md`.
 - Contact details, social handles, canonical URL: `_config.yml`.
 - Publication display: `_data/publications.yml`. Keep `assets/bib/publications.bib` synchronized.
-- Project descriptions and detail pages: `_projects/*.md`.
 - Appearance: `assets/css/academic.css`.
 - Shared page shell: `_layouts/default.html`.
 - Portrait: `assets/images/profile.jpg`.
@@ -26,7 +25,7 @@ Open http://127.0.0.1:4000. For a production build, run `JEKYLL_ENV=production b
 - External blog links: `_data/personal.yml`.
 - AI-use disclosure: `_includes/ai-disclosure.html`.
 
-The homepage opens on Research. Lightweight JavaScript switches between Research, Projects, and Blog without reloading. Categories have shareable hash URLs and support browser Back/Forward. Without JavaScript, all sections remain visible and navigation works as anchor links. Existing project, blog, and /fun/ routes are preserved. Music and Misc are disabled for now.
+The homepage opens on Research. The navigation links to the CV and switches between Research, Blog, and Fun without reloading. Sections have shareable hash URLs and support browser Back/Forward. Without JavaScript, all sections remain visible and navigation works as anchor links. Project source files are retained for possible future blog posts, but project pages are not published.
 
 ## Hosting
 
@@ -36,4 +35,4 @@ The existing GitHub workflow builds on pushes to `master` and publishes to `gh-p
 
 ## Before publishing
 
-Confirm the publication venue in both data files, add a verified CV link, expand project details where useful, and review the inherited sample blog posts. No unverified news or accomplishments have been added.
+Review the inherited sample blog posts before publishing.

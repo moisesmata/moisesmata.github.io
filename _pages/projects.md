@@ -1,11 +1,11 @@
 ---
 title: Projects
+published: false
 layout: about
 permalink: /projects/
 profile:
   align: right
   image: profile.jpg
-published: true
 ---
 
 

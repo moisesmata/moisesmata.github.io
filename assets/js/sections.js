@@ -4,7 +4,7 @@
 
   const links = Array.from(menu.querySelectorAll('[data-section-link]'));
   const panels = Array.from(document.querySelectorAll('[data-section]'));
-  const aliases = { publications: 'research', fun: 'blog', music: 'research', misc: 'research' };
+  const aliases = { publications: 'research', projects: 'blog', music: 'research', misc: 'research' };
 
   function selectSection() {
     const fragment = window.location.hash.slice(1);

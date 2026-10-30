@@ -40,13 +40,6 @@ collections:
   fun:
     output: true
     permalink: /fun/:name/
-  projects:
-    output: true
-    permalink: /projects/:name/
-    order:
-      - lioncub-cubesat.md
-      - nbody-accelerator.md
-      - nasa-suits.md
 
 sass:
   sass_dir: /assets/css/_sass

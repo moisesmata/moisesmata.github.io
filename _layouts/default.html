@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.home %}{{ site.title | escape }}{% else %}{{ page.title | default: site.title | escape }}{% endif %}</title>
+    <title>{{ site.title | escape }}</title>
     {% seo title=false %}
     {% include favicon.html %}
     <link rel="stylesheet" href="{{ '/assets/css/academic.css' | relative_url }}">
@@ -17,8 +17,9 @@
       <nav class="page-nav" aria-label="Main navigation">
         <a href="{{ '/' | relative_url }}">Moises Mata</a>
         <a href="{{ '/' | relative_url }}#research">Research</a>
-        <a href="{{ '/' | relative_url }}#projects">Projects</a>
+        <a href="https://moises-mata.com/CV">CV</a>
         <a href="{{ '/' | relative_url }}#blog">Blog</a>
+        <a href="{{ '/' | relative_url }}#fun">Fun</a>
       </nav>
       {% endunless %}
       <main id="main" tabindex="-1">{{ content }}</main>

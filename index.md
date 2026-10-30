@@ -23,8 +23,9 @@ home: true
 
 <nav class="section-menu" aria-label="Browse sections" data-section-menu>
   <a href="#research" data-section-link>Research</a>
-  <a href="#projects" data-section-link>Projects</a>
+  <a href="https://moises-mata.com/CV">CV</a>
   <a href="#blog" data-section-link>Blog</a>
+  <a href="#fun" data-section-link>Fun</a>
 </nav>
 
 <div class="section-content">
@@ -46,25 +47,13 @@ home: true
     {% endfor %}
   </section>
 
-  <section id="projects" class="content-panel" aria-labelledby="projects-title" data-section>
-    <h2 id="projects-title">Projects</h2>
-    {% for project in site.projects %}
-    <article class="research-entry{% if project.image %} has-image{% endif %}">
-      {% if project.image %}
-      <img class="entry-image" src="{{ project.image | relative_url }}" alt="{{ project.image_alt | escape }}" loading="lazy">
-      {% endif %}
-      <div>
-        <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
-        <p>{{ project.description }}</p>
-      </div>
-    </article>
-    {% endfor %}
-  </section>
-
   {% for category in site.data.personal.categories %}
   <section id="{{ category.id }}" class="content-panel" aria-labelledby="{{ category.id }}-title" data-section>
     <h2 id="{{ category.id }}-title">{{ category.title }}</h2>
     {% include personal-entries.html category=category.id empty=category.empty %}
   </section>
   {% endfor %}
+  <section id="fun" class="content-panel" aria-label="Fun" data-section>
+    <p>Stay tuned!</p>
+  </section>
 </div>
