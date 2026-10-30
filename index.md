@@ -7,12 +7,12 @@ home: true
 <section class="intro" aria-labelledby="intro-title">
   <div class="intro-text">
     <h1 id="intro-title">Moises Mata</h1>
-    <p>I’m a PhD student in Aerospace and Mechanical Engineering at USC, advised by <a href="https://albee.github.io/">Keenan Albee</a> in the <a href="https://usclaser.github.io/">LASER Lab</a>.</p>
-    <p>My research interests are robotics and control for planetary exploration, particularly autonomous operation with limited human input and control on resource-constrained hardware. I also have experience in flight software.</p>
+    <p>I’m a PhD student in Aerospace Engineering at USC, advised by <a href="https://albee.github.io/" target="_blank" rel="noopener noreferrer">Dr. Keenan Albee</a> in the <a href="https://usclaser.github.io/" target="_blank" rel="noopener noreferrer">LASER Lab</a>.</p>
+    <p>My research interests broadly lie in increasing autonomy for robotic space exploration systems, allowing them to explore deep space. I also have experience in flight software.</p>
     <div class="profile-links" aria-label="Academic and social profiles">
-      <a href="https://github.com/{{ site.github }}">GitHub</a>
-      <a href="https://orcid.org/{{ site.orcid }}">ORCID</a>
-      <a href="https://www.linkedin.com/in/{{ site.linkedin }}/">LinkedIn</a>
+      <a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://orcid.org/{{ site.orcid }}" target="_blank" rel="noopener noreferrer">ORCID</a>
+      <a href="https://www.linkedin.com/in/{{ site.linkedin }}/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </div>
     <p class="email"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
   </div>
@@ -37,7 +37,7 @@ home: true
       <img class="entry-image" src="{{ publication.image | relative_url }}" alt="{{ publication.image_alt | escape }}" loading="lazy">
       {% endif %}
       <div>
-        <h3><a href="{{ publication.url }}">{{ publication.title }}</a></h3>
+        <h3><a href="{{ publication.url }}" target="_blank" rel="noopener noreferrer">{{ publication.title }}</a></h3>
         <p class="authors">{{ publication.authors | escape | replace: 'Moises Mata', '<strong>Moises Mata</strong>' }}</p>
         <p class="entry-meta">{{ publication.venue }}, {{ publication.year }}</p>
         {% if publication.description %}<p class="entry-description">{{ publication.description | escape }}</p>{% endif %}
