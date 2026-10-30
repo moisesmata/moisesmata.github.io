@@ -13,7 +13,7 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer (only username/ID, not full URLs)
-linkedin: "moises-mata-cu"
+linkedin: "moises-mata-t"
 github: "moisesmata"
 orcid: "0009-0002-9881-1786"
 

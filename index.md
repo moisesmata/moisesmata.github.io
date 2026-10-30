@@ -10,8 +10,8 @@ home: true
     <p>I’m a PhD student in Aerospace Engineering at USC, advised by <a href="https://albee.github.io/" target="_blank" rel="noopener noreferrer">Dr. Keenan Albee</a> in the <a href="https://usclaser.github.io/" target="_blank" rel="noopener noreferrer">LASER Lab</a>.</p>
     <p>My research interests broadly lie in increasing autonomy for robotic space exploration systems, allowing them to explore deep space. I also have experience in flight software.</p>
     <div class="profile-links" aria-label="Academic and social profiles">
+      <a href="https://scholar.google.com/citations?user=YGDxGvAAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
       <a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>
-      <a href="https://orcid.org/{{ site.orcid }}" target="_blank" rel="noopener noreferrer">ORCID</a>
       <a href="https://www.linkedin.com/in/{{ site.linkedin }}/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     </div>
     <p class="email"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
