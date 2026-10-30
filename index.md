@@ -7,8 +7,11 @@ home: true
 <section class="intro" aria-labelledby="intro-title">
   <div class="intro-text">
     <h1 id="intro-title">Moises Mata</h1>
-    <p>I’m a PhD student in Aerospace Engineering at USC, advised by <a href="https://albee.github.io/" target="_blank" rel="noopener noreferrer">Dr. Keenan Albee</a> in the <a href="https://usclaser.github.io/" target="_blank" rel="noopener noreferrer">LASER Lab</a>.</p>
-    <p>My research interests broadly lie in increasing autonomy for robotic space exploration systems, allowing them to explore deep space. I also have experience in flight software.</p>
+    <p>Hi! I’m a PhD student in Aerospace Engineering at USC, advised by <a href="https://albee.github.io/" target="_blank" rel="noopener noreferrer">Dr. Keenan Albee </a> in the 
+    <a href="https://usclaser.github.io/" target="_blank" rel="noopener noreferrer">LASER Lab</a>, where I am supported by a <a href="https://www.nasa.gov/directorates/stmd/space-tech-research-grants/nstgro/nstgro-2026/" target="_blank" rel="noopener noreferrer">NASA STGRO Fellowship</a>.</p>
+    <p>I'm interested in increasing autonomy for robotic space exploration systems, allowing them to explore deep space. 
+    My research interests span optimal control and reinforcement learning based methods. </p>
+    <p>I hold a Bachelor of Arts in Computer Science and Applied Mathematics from Columbia University.</p>
     <div class="profile-links" aria-label="Academic and social profiles">
       <a href="https://scholar.google.com/citations?user=YGDxGvAAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
       <a href="https://github.com/{{ site.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>
